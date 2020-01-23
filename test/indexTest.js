@@ -65,16 +65,16 @@ describe("index.js", () => {
   })
   
   it("Object: uses destructuring to assign all appropriate variables using the keys as the variable names", () => {
-    expect(name).to.exist
-    expect(name).to.equal("Kermit")
-    expect(color).to.exist
-    expect(color).to.equal("green")
-    expect(song).to.exist
-    expect(song).to.equal("The Rainbow Connection")
-    expect(job).to.exist
-    expect(job).to.equal("Host of The Muppet Show")
-    expect(partner).to.exist
-    expect(partner).to.equal("Miss Piggy")
+    expect(k_name).to.exist
+    expect(k_name).to.equal("Kermit")
+    expect(k_color).to.exist
+    expect(k_color).to.equal("green")
+    expect(song_1).to.exist;
+    expect(song_1).to.equal("The Rainbow Connection");
+    expect(k_job).to.exist;
+    expect(k_job).to.equal("Host of The Muppet Show");
+    expect(k_partner).to.exist;
+    expect(k_partner).to.equal("Miss Piggy");
   })
   
   it("Object: uses destructuring to assign Kermit's color, songs 2 and 4, and Kermit's job and partner", () => {
