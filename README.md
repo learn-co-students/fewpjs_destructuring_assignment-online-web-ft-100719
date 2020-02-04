@@ -103,7 +103,7 @@ The cool part is we can pick the parts of the `Array` that we want to assign!
 const dogs = ['Great Pyrenees', 'Pug', 'Bull Mastiff']
 const [, small, giant] = dogs
 console.log(small, giant) //  Pug, Bull Mastiff
-```
+``` 
 
 ### Destructuring Assignment with Strings
 
